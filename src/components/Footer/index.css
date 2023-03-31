@@ -1,0 +1,28 @@
+.footer {
+    color: #5C282C;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    bottom: 1em;
+    left: 40%;
+}
+
+.footer ul {
+    width: max-content;
+    display: flex;
+    margin: auto;
+    padding: 0;
+}
+.footer ul li {
+    list-style: none;
+    padding: 1vw;
+}
+.footer img {
+    width: 2vw;
+}

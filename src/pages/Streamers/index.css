@@ -1,0 +1,73 @@
+.streamers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vw;
+}
+
+.flex p {
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+.flex {
+    display: grid;
+    margin: 5vw auto;
+    align-items: center;
+}
+.streamer-right .flex {
+    grid-template-columns: 2.5fr 3fr;
+}
+.streamer-left .flex {
+    grid-template-columns: 3fr 2.5fr;
+}
+.flex h2, .flex h3 {
+    color: #EEA43D;
+    margin: 1.4em 0 1.2em;
+}
+.flex h2 {
+    padding-top: 4.2vw;
+    margin: 0 0 1em;
+}
+.flex.left img {
+    margin-left: -1.8em;
+    max-width: 100%;
+}
+.flex.left .read-more img {
+    margin-left: .5em;
+}
+.read-more-box {
+    display: flex;
+    margin: 0;
+}
+.read-more {
+    width: 100%;
+}
+
+.read-more a {
+    font-weight: 600;
+    color: #B0B0B0;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+.read-more img {
+    width: .7vw;
+    margin-left: .5em;
+}
+.streamer-right {
+    padding-left: 10%;
+    
+}
+.streamer-left {
+    padding-right: 10%;
+}
+
+.agenda-streamer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7em;
+    margin: 0;
+    margin-top: -1vw;
+    padding-bottom: 1vw;
+}
+

@@ -1,0 +1,14 @@
+.item-agenda1 {
+    width: max-content;
+    background-color: #C4C4C4;
+    border-radius: 1vw;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2vw;
+    font-size: .8rem;
+}

@@ -1,0 +1,34 @@
+.em-breve-box {
+    width: 95vw;
+    height: 100vh;
+    background-image: url('../../assets/fundo-soon.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2vw auto 5vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+ .em-breve-box div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.title {
+    margin: 0 auto;
+    font-size: 4em;
+    font-weight: 300;
+    color: #F4BD5B;
+    padding: 0px;
+}
+
+.soon-text {
+    font-weight: 400;
+    margin: 2vw 0;
+
+}

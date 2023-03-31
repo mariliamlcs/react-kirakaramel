@@ -1,0 +1,152 @@
+.title-sections.pessoal {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+p a {
+    color: #fff;
+    transform: .8s;
+}
+
+p a:hover {
+    font-weight: 600;
+}
+
+h3, h3 a, p.brown-text a {
+    color: #5C282C;
+} 
+h2, h2 a {
+    color: #F4BD5B;
+}
+.container1 {
+    color: #fff;
+    font-size: .8em;
+    background-color: #F4BD5B;
+    width: 85%;
+    margin-top: 6vw;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    border-radius: 0px 20px 20px 0px;
+    min-height: max-content;
+    position: relative;
+}
+.grid-sobre-mim {
+    margin: 3vw 5vw ;
+    width: 100%;
+}
+.about-me-list {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.about-me-list ul {
+    list-style: none;
+    padding: 0;
+}
+.about-me-list ul li b {
+    color: #5C282C;
+    font-weight: 600;
+}
+
+.imagem-1 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: flex-end;
+}
+
+.imagem-1 img {
+    width: 100%;
+    height: auto;    
+    align-items: flex-end;
+}
+
+.sm-title {
+    margin-bottom: 0;
+}
+
+.social-media {
+    display: grid;
+    grid-template-columns: max-content max-content max-content max-content max-content;
+    column-gap: 1em;
+    margin: 0;
+}
+.social-media img {
+    margin-top: 1vw;
+}
+
+.container2 {
+    display: grid;
+    width: 85%;
+    margin: 0;
+    z-index: 3;
+    position: relative;
+    grid-template-columns: 2fr 2fr;
+    column-gap: 2vw;
+}
+.container2.video img {
+    z-index: 1;
+    padding: 2vw;
+    width: 100%;
+    height: auto;
+}
+
+.personal-video {
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    align-content: center;
+}
+.personal-video video {
+    border-radius: 20px 20px;
+}
+
+.container3 {
+    background-color: #5C282C;
+    display: flex;
+    padding: 2vw 3vw;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    column-gap: 2vw;
+    position: relative;
+    margin-bottom: 0;
+    float: center;
+}
+.container3 h3 {
+    color: #F4BD5B;
+    margin-right: 4vw;
+}
+.titulo-agenda {
+    display: flex;
+    width: 20%;
+    justify-content: flex-end;
+}
+.titulo-agenda img {
+    height: auto;
+}
+
+.setinha { 
+    background-image: url('../../assets/agenda-seta.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.agenda-dias {
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+
+.chibi-icon {
+    width: 20vw;
+    position: absolute;
+    right: 0;
+    margin-right: 14vw;
+    bottom: 0;
+}
+p, .grid-sobre-mim p {
+    font-size: 1em;
+    font-weight: 400;
+}

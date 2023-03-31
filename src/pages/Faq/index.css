@@ -1,0 +1,64 @@
+h1.faq-title {
+    margin: 0;
+}
+
+.estrelinha {
+    width: 1vw;
+    height: auto;
+    margin: 0 .2vw;
+    display: flex;
+    align-items: center;
+
+}
+
+.question-faq, .Collapsible__trigger.is-open {
+    color: #fff ;
+    font-weight: 500;
+    background-image: url('../../assets/arrowdown.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 1vw;
+    border: 1vw solid transparent;
+    width: inherit;
+    background-color: #EEA43D;
+}
+.Collapsible__trigger.is-open {
+    background-color: #5C282C;
+}
+
+.faq-container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 6vw auto;
+}
+
+.answer-faq, .Collapsible__contentInner, .Collapsible__contentOuter {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2vw;
+    color: #797979;
+}
+
+.answer-faq {
+    padding: 2vw 3vw;
+    color: #797979;
+}
+
+.Collapsible {
+    width: 100%;
+    display: flex;  
+    flex-direction: column;
+    margin: 1vw auto;
+}
+
+.banner-FAQ {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
